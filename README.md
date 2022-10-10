@@ -74,7 +74,7 @@
 
 # 9. •	¿Cuáles son los diferentes tipos de botones en bootstrap? Pon ejemplos.  
 
-[foto]!(Assets/Botones.jpg)
+[foto]!(Assets/BOTONES.jpg)
 
 # 9.5 Que es un carousel en bootstrap?
 
@@ -87,7 +87,7 @@
 
     Es un indicador de carga que se da cuando alguna paguina puede tenr un tiempo demorado de carga en el proceso
 
-![foto](assets/BOTONES.jpg)
+[foto]!(assets/spinner.jpg)
 
 # 11 . ¿Que es un navBar de bootstrap? Pon un ejemplo.
 
@@ -96,24 +96,24 @@
     <nav class="navbar navbar-dark bg-dark"></nav>
     <nav class="navbar navbar-dark bg-primary"></nav><nav class="navbar navbar-light" style="background-color: #e3f2fd;"></nav>
 
-![foto](Assets/navbar.jpg)
+[foto]!(Assets/navbar.jpg)
 
 # 12 .	¿Que es un modal de bootstrap? Pon un ejemplo.
 
     ES UN PLUGIN PARA AÑADIR NOTIFICACIONES A CIERTO CONTENIDO , Y ASEA RANDOM O CONTENIDO COMO CAJAS, ARTICULOS ETC…
     Es un plugin para añadir notificaciones a cierto contenido, ya sea un contenido random o contenido como cajas, articulos etc...
-![foto](Assets/modal.jpg)
+[foto]!(Assets/modal.jpg)
 
 # 13 . Existen inputs para subir archivos en Bootstrap? Pon un ejemplo.
 
     Si, son campos donde se pueden subir fotos, o cualquier tipo de objeto.
-![foto](Assets/input.jpg)
+[foto]!(Assets/input.jpg)
 
 # 14 . 	¿Qué es un plugin scrollspy en Bootstrap?Pon un ejemplo.
 
          Actualizador automatico de la barra de navegación, el cual te situa en la parte de la pagina en la que te encuentras
 
-![foto](Assets/scrollspy.jpg)
+[foto]!(assets/scrollspy.jpg)
 
 
 
