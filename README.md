@@ -87,7 +87,7 @@
 
     Es un indicador de carga que se da cuando alguna paguina puede tenr un tiempo demorado de carga en el proceso
 
-![foto](Assets/spinner.jpg)
+![foto](assets/BOTONES.jpg)
 
 # 11 . ¿Que es un navBar de bootstrap? Pon un ejemplo.
 
