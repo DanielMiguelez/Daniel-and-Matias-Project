@@ -1,0 +1,237 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+
+body {
+    background: #1E9600;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #767474, #2d2d2b, #e6efe4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e1cfcf, #252524, #e1e8e0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+h1 {
+  text-align: center;
+}
+
+.msg {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.datos {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.mensaje-contraseña {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+
+
+}
+
+.formulario {
+    background: white;
+    border-radius:  10px;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: #F8F005 solid 2px;
+
+}
+
+.formulario {
+  -webkit-box-shadow: 34px 25px 72px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 34px 25px 72px -7px rgba(0,0,0,0.75);
+box-shadow: 34px 25px 72px -7px rgba(0,0,0,0.75);
+}
+
+.mensaje-contraseña {
+    font-size: 12px;
+    margin: -15px;
+
+}
+
+.showUser {
+    border: 4px solid yellow;
+}
+
+input:hover {
+    border: 2px solid #1E9600;
+}
+
+
+.btn {
+  display: flex;
+  align-content: center
+}
+
+/* utton, button::after {
+    width: 114px;
+    height: 26px;
+    font-size: 10px;
+    font-family: 'Bebas Neue', cursive;
+    background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+    border: 0;
+    color: #fff;
+    letter-spacing: 3px;
+    line-height: 10px;
+    box-shadow: 6px 0px 0px #00E6F6;
+    outline: transparent;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+      align-content: center
+  ;
+  }
+  
+  button::after {
+    --slice-0: inset(50% 50% 50% 50%);
+    --slice-1: inset(80% -6px 0 0);
+    --slice-2: inset(50% -6px 30% 0);
+    --slice-3: inset(10% -6px 85% 0);
+    --slice-4: inset(40% -6px 43% 0);
+    --slice-5: inset(80% -6px 5% 0);
+    content: 'AVAILABLE NOW';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+    text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+    clip-path: var(--slice-0);
+  }
+  
+  button:hover::after {
+    animation: 1s glitch;
+    animation-timing-function: steps(2, end);
+  }
+ */
+
+  .cuerpo{
+    background-color: rgb(108, 114, 114);
+}
+
+.container-fluid{
+    background-color: rgb(131, 131, 197);
+    height: 8vh;
+}
+.dropdown-menu{
+    position: absolute;
+}
+.card{
+    background:url(./images/black.jpg);
+    box-shadow: 4px 4px rgb(69, 65, 65) ;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.card1{
+    background: url(./images/ELEGANTR.webp);
+    box-shadow: 4px 4px rgb(69, 65, 65) ;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.card2{
+    background: url(./images/ELEGANTR.webp);
+    box-shadow: 4px 4px rgb(69, 65, 65) ;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.card3{
+    background: url(./images/verde\ eleg.jpg);
+    box-shadow: 4px 4px rgb(69, 65, 65) ;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.card4{
+    background: url(./images/rojito.jpg);
+    box-shadow: 4px 4px rgb(69, 65, 65) ;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+p{
+    color: rgb(213, 210, 194);
+}
+h6{
+    color: gold;
+    font-weight: 400;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 10vh;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(89, 89, 86) 52%, rgba(255,255,255,1) 100%);
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+.foot p{
+    padding: 10px;
+    margin-top: 2vh;
+}
+
+  
+  @keyframes glitch {
+    0% {
+      clip-path: var(--slice-1);
+      transform: translate(-20px, -10px);
+    }
+    10% {
+      clip-path: var(--slice-3);
+      transform: translate(10px, 10px);
+    }
+    20% {
+      clip-path: var(--slice-1);
+      transform: translate(-10px, 10px);
+    }
+    30% {
+      clip-path: var(--slice-3);
+      transform: translate(0px, 5px);
+    }
+    40% {
+      clip-path: var(--slice-2);
+      transform: translate(-5px, 0px);
+    }
+    50% {
+      clip-path: var(--slice-3);
+      transform: translate(5px, 0px);
+    }
+    60% {
+      clip-path: var(--slice-4);
+      transform: translate(5px, 10px);
+    }
+    70% {
+      clip-path: var(--slice-2);
+      transform: translate(-10px, 10px);
+    }
+    80% {
+      clip-path: var(--slice-5);
+      transform: translate(20px, -10px);
+    }
+    90% {
+      clip-path: var(--slice-1);
+      transform: translate(-10px, 0px);
+    }
+    100% {
+      clip-path: var(--slice-1);
+      transform: translate(0);
+    }
+  };
+
+  

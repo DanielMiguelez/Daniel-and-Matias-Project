@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body body-users>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="usuarios.html">usuarios</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="bienvenida.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="formulario.html">Formulario</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="usuarios.html">Usuarios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cards.html">Investigacion Boostrap</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+      <h1>Hoy nace un nuevo usuario!</h1>
+
+      <form id="my-form">
+        <div class="msg">
+      
+        </div>
+
+        <div class="mb-3">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" class="form-control" placeholder="Primer nombre" id="name">
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="nombre@ejemplo.com" id="email">
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="password" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">La contraseña debe tener al menos 8 caracteres, 1 número y 1
+                símbolo.</div>
+        <span class="msg1" style="color:red"></span>
+        </div>
+
+
+
+        <div class="mb-3">
+            <label for="password2" class="form-label">Confirma tu Contraseña</label>
+            <input type="password" class="form-control" id="password2" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Repite la contraseña para validación.</div>
+            <span class="msg2" style="color:red"></span>
+        </div>
+
+
+
+
+        <button type="submit" class="btn btn-primary" id="submit">Enviar</button>
+
+    </form>
+    
+
+    </div>
+    <footer class="foot">
+      <p>Matías $ Daniel - All rights reserved</p>
+   </footer>
+  <script src="user.js"></script>
+  <!-- <script src="main.js"></script> -->
+</body>
+</html>
